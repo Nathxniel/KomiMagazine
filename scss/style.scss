@@ -15,6 +15,9 @@ html, body {
   font-size: 20em;
   position: fixed;
   text-align: center;  
+  h1 {
+    font-style: italic;
+  }
 }
 #background {
   background-size: cover;
