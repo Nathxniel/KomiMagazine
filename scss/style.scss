@@ -7,16 +7,22 @@ html, body {
   height: 100%;
   //filter: hue-rotate(90deg);
 }
-#title {
-  top: 20%;
-  color: red;
-  z-index: 100;
-  display: block;
-  font-size: 20em;
-  position: fixed;
-  text-align: center;  
+.title {
+  img {
+    top: 11%;
+    left: 04%;
+    width: 70%;
+    height: 80%;
+    z-index: 100;
+    position: fixed;
+  }
   h1 {
     font-style: italic;
+    color: red;
+    display: block;
+    font-size: 20em;
+    position: fixed;
+    text-align: center;  
   }
 }
 #background {
