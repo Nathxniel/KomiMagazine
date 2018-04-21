@@ -58,8 +58,8 @@ html, body {
   z-index: 3;
   position: fixed; }
   .contactUs img {
-    width: 100%;
-    height: 100%; }
+    width: 25%;
+    height: 25%; }
 
 .about {
   top: 50%;
@@ -67,8 +67,8 @@ html, body {
   z-index: 1;
   position: fixed; }
   .about img {
-    width: 340%;
-    height: 340%; }
+    width: 85%;
+    height: 85%; }
 
 .review1 {
   top: -6%;
@@ -76,8 +76,8 @@ html, body {
   z-index: 00;
   position: fixed; }
   .review1 img {
-    width: 300%;
-    height: 300%; }
+    width: 75%;
+    height: 75%; }
 
 .random1 {
   top: 00%;
@@ -85,8 +85,8 @@ html, body {
   z-index: -1;
   position: fixed; }
   .random1 img {
-    width: 540%;
-    height: 540%; }
+    width: 135%;
+    height: 135%; }
 
 .random2 {
   top: 54%;
@@ -94,8 +94,8 @@ html, body {
   z-index: 1;
   position: fixed; }
   .random2 img {
-    width: 349%;
-    height: 349%; }
+    width: 87.25%;
+    height: 87.25%; }
 
 .random3 {
   top: 00%;
@@ -103,8 +103,8 @@ html, body {
   z-index: -3;
   position: fixed; }
   .random3 img {
-    width: 440%;
-    height: 440%; }
+    width: 110%;
+    height: 110%; }
 
 @-webkit-keyframes colours {
   50% {
