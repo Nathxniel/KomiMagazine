@@ -1,12 +1,16 @@
-function fade(seconds) {
-  $('body').css('display', 'none');
-  $('body').fadeIn(seconds * 1000);
-}
+//function fade(seconds) {
+//  $('body').css('display', 'none');
+//  $('body').fadeIn(seconds * 1000);
+//}
 
-function fadeIn(seconds) {
-  $(document).ready(function(){
-    fade(seconds);
-  });
+//function fadeIn(seconds) {
+//  $(document).ready(function(){
+//    fade(seconds);
+//  });
+//}
+
+function fadeIn(item, seconds) {
+  $(item).fadeIn(seconds * 1000);
 }
 
 var trailLength = 8 // The length of trail (8 by default; put more for longer "tail")

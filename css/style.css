@@ -29,6 +29,7 @@ html, body {
   top: 10%;
   left: 10%;
   z-index: 3;
+  display: none;
   position: fixed; }
   .contactUs img {
     width: 100%;
@@ -38,6 +39,7 @@ html, body {
   top: 50%;
   left: 28%;
   z-index: 1;
+  display: none;
   position: fixed; }
   .about img {
     width: 340%;
@@ -47,6 +49,7 @@ html, body {
   top: -6%;
   left: 40%;
   z-index: 00;
+  display: none;
   position: fixed; }
   .review1 img {
     width: 300%;
@@ -56,6 +59,7 @@ html, body {
   top: 00%;
   left: 60%;
   z-index: -1;
+  display: none;
   position: fixed; }
   .random1 img {
     width: 540%;
@@ -65,6 +69,7 @@ html, body {
   top: 54%;
   left: -3%;
   z-index: 1;
+  display: none;
   position: fixed; }
   .random2 img {
     width: 349%;
@@ -74,6 +79,7 @@ html, body {
   top: 00%;
   left: 00%;
   z-index: -3;
+  display: none;
   position: fixed; }
   .random3 img {
     width: 440%;
