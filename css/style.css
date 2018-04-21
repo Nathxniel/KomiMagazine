@@ -13,14 +13,9 @@ html, body {
   opacity: 0.8;
   z-index: 1000;
   display: block;
+  position: relative;
   text-align: center;
   background-color: black; }
-  #main h1 {
-    color: white;
-    font-size: 2em; }
-  #main h2 {
-    color: white;
-    font-size: 4em; }
   #main a {
     color: white;
     font-size: 1em;
@@ -31,6 +26,16 @@ html, body {
       text-decoration: none;
       transition: color linear 0.5s;
       -webkit-transition: color 0.5s; }
+    #main a h1 {
+      color: white;
+      font-size: 2em; }
+      #main a h1:hover {
+        color: red; }
+    #main a h2 {
+      color: white;
+      font-size: 4em; }
+      #main a h2:hover {
+        color: red; }
 
 .title img {
   top: 11%;

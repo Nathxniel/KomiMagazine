@@ -13,16 +13,9 @@ html, body {
   opacity: 0.8;
   z-index: 1000;
   display: block;
+  position: relative;
   text-align: center;
   background-color: black;
-  h1 {
-    color: white;
-    font-size: 2em;
-  }
-  h2 {
-    color: white;
-    font-size: 4em;
-  }
   a {
     color: white;
     font-size: 1em;
@@ -33,6 +26,14 @@ html, body {
       text-decoration: none;
       transition: color linear 0.5s;
       -webkit-transition: color 0.5s;
+    }
+    h1 {
+      color: white;
+      font-size: 2em;
+    }
+    h2 {
+      color: white;
+      font-size: 4em;
     }
   }
 }

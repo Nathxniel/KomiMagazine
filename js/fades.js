@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $("#titletext").hover(showMain(), hideMain());
 });
+
 function showMain() {
   $("#main").fadeIn(4440);  
 }
