@@ -18,13 +18,13 @@ html, body {
   background-color: black; }
   #main h1 {
     color: white;
-    font-size: 10em; }
+    font-size: 2em; }
   #main h2 {
     color: white;
-    font-size: 20em; }
+    font-size: 4em; }
   #main a {
     color: white;
-    font-size: 10em;
+    font-size: 2em;
     position: relative;
     text-decoration: none; }
     #main a:hover {
@@ -59,8 +59,7 @@ html, body {
   position: fixed; }
   .contactUs img {
     width: 100%;
-    height: 100%;
-    -webkit-transform: translateZ(0); }
+    height: 100%; }
 
 .about {
   top: 50%;
@@ -69,8 +68,7 @@ html, body {
   position: fixed; }
   .about img {
     width: 340%;
-    height: 340%;
-    -webkit-transform: translateZ(0); }
+    height: 340%; }
 
 .review1 {
   top: -6%;
@@ -79,8 +77,7 @@ html, body {
   position: fixed; }
   .review1 img {
     width: 300%;
-    height: 300%;
-    -webkit-transform: translateZ(0); }
+    height: 300%; }
 
 .random1 {
   top: 00%;
@@ -89,8 +86,7 @@ html, body {
   position: fixed; }
   .random1 img {
     width: 540%;
-    height: 540%;
-    -webkit-transform: translateZ(0); }
+    height: 540%; }
 
 .random2 {
   top: 54%;
@@ -99,8 +95,7 @@ html, body {
   position: fixed; }
   .random2 img {
     width: 349%;
-    height: 349%;
-    -webkit-transform: translateZ(0); }
+    height: 349%; }
 
 .random3 {
   top: 00%;
@@ -109,8 +104,7 @@ html, body {
   position: fixed; }
   .random3 img {
     width: 440%;
-    height: 440%;
-    -webkit-transform: translateZ(0); }
+    height: 440%; }
 
 @-webkit-keyframes colours {
   50% {
