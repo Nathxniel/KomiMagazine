@@ -1,13 +1,15 @@
-//function fade(seconds) {
-//  $('body').css('display', 'none');
-//  $('body').fadeIn(seconds * 1000);
-//}
+$(document).ready(function() {
+  $("#titletext").hover(showMain(), hideMain());
+});
+function showMain() {
+  alert("hi");
+  $("#main").fadeIn(4440);  
+}
 
-//function fadeIn(seconds) {
-//  $(document).ready(function(){
-//    fade(seconds);
-//  });
-//}
+function hideMain() {
+  alert("hi");
+  $("#main").fadeOut(444);  
+}
 
 function fadeIn(item, seconds) {
   $(item).fadeIn(seconds * 1000);
