@@ -36,42 +36,47 @@
     <div class="back"></div>
   </div>
   <!--<div id="title"><h1>KOMI MAGAZINE</h1></div>-->
-  <div id=page style="display:none;">
+  <div id=page style="display:none;" onclick="showMain()">
     <div class="title">
       <img id="title" src="title.png"></img>
       <img id="titletext" src="titletext.png"></img>
     </div>
     <!-- site content -->
-    <div id="main" style="display:none;"><h1>HEADS UP</h1></div>
+    <div id="main" style="display:none;">
+      <h1>LATEST SEGMENT</h1>
+      <h2>HEADS UP: SOMA FEST LONDON ALL DAYER</h2>
+      <img alttext="wow"></img>
+      <a href="soma.html">GO TO ARTICLE</a> 
+    </div>
     <!-- contact -->
     <div class="contactUs">
-      <img src="media/contactUs.gif"
-           onload="fadeIn('.contactUs',2)"></img>
+      <img src="media/contactUs.gif"></img>
+      <!--onload="fadeIn('.contactUs',2)"></img>-->
     </div>
     <!-- about -->
     <div class="about">
-      <img src="media/about.gif"
-           onload="fadeIn('.about',2)"></img>
+      <img src="media/about.gif"></img>
+      <!--onload="fadeIn('.about',2)"></img>-->
     </div>
     <!-- review -->
     <div class="review1">
-      <img src="media/yesterdayshomily.gif"
-           onload="fadeIn('.review1',2)"></img>
+      <img src="media/yesterdayshomily.gif"></img>
+      <!--onload="fadeIn('.review1',2)"></img>-->
     </div>
     <!-- random1 -->
     <div class="random1">
-      <img src="media/random1.gif"
-           onload="fadeIn('.random1',2)"></img>
+      <img src="media/random1.gif"></img>
+      <!--onload="fadeIn('.random1',2)"></img>-->
     </div>
     <!-- random2 -->
     <div class="random2">
-      <img src="media/random2.gif"
-           onload="fadeIn('.random2',2)"></img>
+      <img src="media/random2.gif"></img>
+      <!--onload="fadeIn('.random2',2)"></img>-->
     </div>
     <!-- random3 -->
     <div class="random3">
-      <img src="media/random3.gif"
-           onload="fadeIn('.random3',2)"></img>
+      <img src="media/random3.gif"></img>
+      <!--onload="fadeIn('.random3',2)"></img>-->
     </div>
   </div>
   <script>
@@ -82,7 +87,7 @@
     function showPage() {
       $("#loadbar").fadeOut(3000);
       $("#page").fadeIn(4440);
-      $("#background").css("background-color", "black");
+      //$("#background").css("background-color", "black");
     }
   </script>
 </body>

@@ -2,12 +2,10 @@ $(document).ready(function() {
   $("#titletext").hover(showMain(), hideMain());
 });
 function showMain() {
-  alert("hi");
   $("#main").fadeIn(4440);  
 }
 
 function hideMain() {
-  alert("hi");
   $("#main").fadeOut(444);  
 }
 
