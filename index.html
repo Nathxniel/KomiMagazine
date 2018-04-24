@@ -36,24 +36,23 @@
     <div class="back"></div>
   </div>
   <!--<div id="title"><h1>KOMI MAGAZINE</h1></div>-->
-  <div id=page style="display:none;" onclick="showMain()">
+  <div id=page style="display:none;">
     <div class="title">
-      <img id="title" src="title.png"></img>
-      <img id="titletext" src="titletext.png"></img>
+      <a href="https://www.facebook.com/komimagazine/">
+        <img id="title" src="title.png"></img>
+        <img id="titletext" src="titletext.png"></img>
+      </a>
     </div>
     <!-- site content -->
     <div id="main" style="display:none;">
-      <a href="soma.html">
       <h1>LATEST SEGMENT</h1>
       <h2>HEADS UP: SOMA FEST LONDON ALL DAYER</h2>
       <img alttext="wow" src="media/soma.jpg"></img>
-      <br/>
-      GO TO ARTICLE</a> 
     </div>
     <!-- contact -->
     <div class="contactUs">
+      <!-- facebook? -->
       <img src="media/contactUs.gif"></img>
-      <!--onload="fadeIn('.contactUs',2)"></img>-->
     </div>
     <!-- about -->
     <div class="about">
@@ -79,6 +78,31 @@
     <div class="random3">
       <img src="media/random3.gif"></img>
       <!--onload="fadeIn('.random3',2)"></img>-->
+    </div>
+    <!-- navigation -->
+    <div class="navigation">
+      <p>
+        <a href="https://www.facebook.com/komimagazine/">
+          <!--onmouseenter="styleContact()"-->
+          <!--onmouseleave="styleContact()"-->
+          contact
+        </a> - 
+        <a href="https://www.facebook.com/komimagazine/about/"
+          onmouseenter="show('.about')"
+          onmouseleave="hide('.about')">
+          about
+        </a> - 
+        <a href="soma.html"
+          onmouseenter="showMain()"
+          onmouseleave="hideMain()">
+          main article
+        </a> - 
+        <a href="https://www.youtube.com/watch?v=cZYNADOHhVY"
+          onmouseenter="show('.random1');show('.random2');"
+          onmouseleave="hide('.random1');hide('.random2');">
+          random
+        </a>
+      </p>
     </div>
   </div>
   <script>

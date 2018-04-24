@@ -1,9 +1,14 @@
-$(document).ready(function() {
-  $("#titletext").hover(showMain(), hideMain());
-});
+//$(".navigation p a")
+//  .mouseenter(function() {
+//    alert(HI);
+//  })
+//  .mouseleave(function() {
+//    alert(im above average);
+//  });
+
 
 function showMain() {
-  $("#main").fadeIn(4440);  
+  $("#main").fadeIn(444);  
 }
 
 function hideMain() {
@@ -12,6 +17,21 @@ function hideMain() {
 
 function fadeIn(item, seconds) {
   $(item).fadeIn(seconds * 1000);
+}
+
+//function styleContact() {
+//  $(".contactUs").css("filter", "grayscale(0.3)");
+//}
+
+function hide(name) {
+  var tmp = + $(name).css("z-index");
+  $(name).css("z-index", tmp - 50);
+}
+
+function show(name) {
+  var tmp = + $(name).css("z-index");
+  tmp += 50;
+  $(name).css("z-index", tmp);
 }
 
 var trailLength = 8 // The length of trail (8 by default; put more for longer "tail")
