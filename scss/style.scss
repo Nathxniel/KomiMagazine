@@ -27,12 +27,13 @@ html, body {
 }
 .title {
   img {
-    top: 11%;
-    left: 04%;
-    width: 70%;
-    height: 80%;
+    top: 20%;
+    left: 12%;
+    //width: 55%;
+    //height: 63%;
+    //transform: scale(0.5);
     z-index: 101;
-    position: fixed;
+    position: absolute;
   }
 }
 #background {
